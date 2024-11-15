@@ -10,4 +10,5 @@ SELECT MAX(Salary) FROM employee whare salary<(SELECT MAX(salary)FROM employee)
 
 //another way ORDER BY
 
-SELECT
+SELECT id, name, salary FROM employees ORDER BY salary DESC LIMIT 1;
+
